@@ -1,18 +1,29 @@
 #include <stdio>
 
 /**
- * main - prints the alphabet in lowewercase, and then in uppercase,
- * followed by a new line
- * Return: Always o (Success)
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int ch
-		;
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
+	char c;
+
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'Z') {
+			putchar(d);
+			d++;
+		}
 	putchar('\n');
 	return (0);
 }
