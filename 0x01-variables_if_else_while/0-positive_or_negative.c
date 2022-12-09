@@ -1,14 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 /**
- * main -main block
- * description: get random number and print number
- * return 0
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
@@ -18,6 +21,6 @@ int main(void)
 	else if (n == 0)
 		printf("%i is zero\n", n);
 	else
-		printf("%i is negetive\n", n);
+		printf("%i is negative\n", n);
 	return (0);
 }
