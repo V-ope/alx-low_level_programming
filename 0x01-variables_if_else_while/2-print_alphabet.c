@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	
 	char c = 'a';
 
 	while (c <= 'z')
@@ -17,5 +16,5 @@ int main(void)
 	}
 
 	purcher('\n');
-	return (0)
+	return (0);
 }
