@@ -57,11 +57,9 @@ int _atoi(char *s)
 				break;
 
 			f = 0;
-
 		}
 
 		i++;
-
 	}
 
 	if (f == 0)
@@ -79,11 +77,8 @@ int _atoi(char *s)
  */
 int main(int argc, char *argv[])
 {
-
 	int result, num1, num2;
-
-
-
+	
 	if (argc < 3 || argc > 3)
 
 	{
@@ -100,6 +95,5 @@ int main(int argc, char *argv[])
 	result = num1 * num2;
 
 	printf("%d\n", result);
-
 	return (0);
 }
